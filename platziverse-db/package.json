@@ -1,0 +1,27 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "a simple IoT plataform - DB module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "Standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luislinaresgonzales/js-agent.git"
+  },
+  "author": "Luis Linares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luislinaresgonzales/js-agent/issues"
+  },
+  "homepage": "https://github.com/luislinaresgonzales/js-agent#readme",
+  "devDependencies": {
+    "standard": "^14.1.0"
+  },
+  "dependencies": {
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.1"
+  }
+}
