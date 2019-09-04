@@ -10,7 +10,7 @@ module.exports = async function (config) {
   const MetricModel = setupMetricModel(config)
 
   AgentModel.hasMany(MetricModel)
-  MetricModel.belogsTo(AgentModel)
+  MetricModel.belongsTo(AgentModel)
 
   await sequelize.authenticate()
 
